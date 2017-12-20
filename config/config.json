@@ -1,0 +1,11 @@
+{
+	"port": 3000,
+	"environment": "local",
+	"apiTrace" : {
+		"host": "https://api.mercadolibre.com"
+	},
+	"author": {
+		"name": "Douglas",
+		"lastname": "Araujo"
+	}
+}
