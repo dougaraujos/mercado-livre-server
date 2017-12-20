@@ -1,0 +1,36 @@
+{
+	"private": true,
+	"version": "1.0.0",
+	"name": "api-mercado-livre",
+	"company": "Mercado Livre",
+	"description": "API Gateway para integração com Mercado Livre",
+	"author": "Douglas Araujo",
+	"keywords": [],
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"license": {
+		"type": ""
+	},
+	"scripts": {
+		"babel-node": "babel-node index.js",
+		"start": "nodemon --exec npm run babel-node"
+	},
+	"engines": {
+		"node": "8.x.x"
+	},
+	"dependencies": {
+		"body-parser": "1.17.1",
+		"errorhandler": "^1.4.2",
+		"express": "4.15.2",
+		"express-validator": "^3.0.0",
+		"node-fetch": "^1.7.3"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-plugin-module-resolver": "^3.0.0",
+		"babel-preset-env": "^1.6.1",
+		"nodemon": "^1.13.3"
+	}
+}
